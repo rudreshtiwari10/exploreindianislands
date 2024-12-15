@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="acstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navinfo">
+                <div class="home">
+                    <i class="fa fa-home"></i>&nbsp;<a href="/home/home.html">Home</a>&nbsp; 
+                </div>
+                <div class="Contact">
+                    <i class="fa fa-photo r1"></i>&nbsp;&nbsp;<a href="andaman.html">Main</a>&nbsp;
+                </div>
+                <div class="help">
+                    <i class="fa fa-plane r1"></i>&nbsp;&nbsp;<a href="https://www.makemytrip.com/">Plan a trip</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="logo copy.png"alt="">
+            </div>    
+        </div>
+        <h1>Explore the cuisine of Andaman and Nicobar</h1>
+    <div class="mbody">
+            <section class="card-container">
+                <!-- -->
+                <div class="card" onclick="toggleDetails('card1-details')">
+                    <img src="amaya.jpg" alt="Amaya">
+                    <h3>Amaya</h3>
+                    <p>Amaya is probably one of the best rooftop bars and restaurants in Port Blair, which offers stunning views of the ocean. The open-air bar is just a perfect place to enjoy cocktails or have a romantic candlelight dinner with your partner</p>
+                    <div class="details" id="card1-details">
+                        <p>
+                            <ul>
+                                <li><strong>Location:</strong> Sea Shell, Marine Hill, Port Blair, Andaman and Nicobar Islands</li> 
+                                <li><strong> Timings: </strong>11:00 am–11:00 pm</li> 
+                                <li><strong>Cuisines Served:</strong>  Indian and Asian Fusion</li>
+                                <li><strong> Must-Try Dishes:</strong> Seafood Platter, Andaman Fish Curry, Tandoori Platter, Chicken Sizzler</li>
+                                <li><strong>Cost for 2:</strong>  ₹1200 (without drinks)</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card2-details')">
+                    <img src="Excel-Restaurant .jpg" alt="Excel Restaurant
+                    ">
+                    <h3>Excel Restaurant
+                    </h3>
+                    <p>The Excel Restaurant is located on the rooftop of Lalaji Bay View Guesthouse. While the ambiance of this restaurant is not so fancy, it is one of the best restaurants in Andaman to socialize and sip a chilled beer. </p>
+                    <div class="details" id="card2-details">
+                        <p>
+                            <ul>
+                                <li><strong>Location:</strong> R. P Road Dignabad, Port Blair, Andaman and Nicobar Islands</li> 
+                                <li><strong> Timings: </strong>11:00 am–11:00 pm</li> 
+                                <li><strong>Cuisines Served:</strong>  Continental, Indian</li>
+                                <li><strong> Must-Try Dishes:</strong>Grilled Seafood, Pancakes, Pizza</li>
+                                <li><strong>Cost for 2:</strong>  ₹500 approx</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card3-details')">
+                    <img src="Seafood Delights Andaman.jpg" alt="Seafood Delights Andaman">
+                    <h3>Seafood Delights Andaman</h3>
+                    <p> this is one of the best restaurants in Andaman which offers both local and international flavors with a variety of vegetarian and non-vegetarian options..</p>
+                    <div class="details" id="card3-details">
+                        <p>
+                            <li><strong>Location:</strong> MQ74+G7J, Corbyns Cove Rd, South Point, Shadipur, Port Blair, Andaman and Nicobar Islands</li> 
+                                <li><strong> Timings: </strong>MA Rd, Phoenix Bay, Port Blair, Andaman and Nicobar Islands</li> 
+                                <li><strong>Cuisines Served:</strong> Indian, Seafood, Continental</li>
+                                <li><strong> Must-Try Dishes:</strong>  Crab Masala, Prawns Biryani, lobster</li>
+                                <li><strong>Cost for 2:</strong>  ₹1800 approx</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card4-details')">
+                    <img src="The-Bayview-Restaurant.jpg" alt="The Bayview Restaurant">
+                    <h3>The Bayview Restaurant</h3>
+                    <p>Located in Sinclairs Bayview Resort of Andaman, This restaurant is one of the top restaurants in Port Blair and is widely regarded as one of the finest restaurants in the Andaman Islands and the premier destination for dining in the area.</p>
+                    <div class="details" id="card4-details">
+                        <p>
+                            <ul>
+                                <li><strong>Location:</strong> MQ74+G7J, Corbyns Cove Rd, South Point, Shadipur, Port Blair, Andaman and Nicobar Islands</li> 
+                                <li><strong> Timings: </strong>11:30 am–10:00 pm</li> 
+                                <li><strong>Cuisines Served:</strong> Indian, Tandoor, Continental and Italian.</li>
+                                <li><strong> Must-Try Dishes:</strong>  Fried Fish, Butter Garlic Lobster, Grilled Tiger Prawns, BBQ Chicken</li>
+                                <li><strong>Cost for 2:</strong>  ₹1800 approx</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+        console.log("Welcome to Explore South Korea!");
+    });
+    // script.js
+
+    function toggleDetails(detailsId) {
+        const details = document.getElementById(detailsId);
+        if (details.style.display === "block") {
+            details.style.display = "none";
+        } else {
+            details.style.display = "block";
+        }
+    }
+        </script>
+</div>
+    <div class="division1">
+        <div class="About">
+            <div class="aboutus">
+                <h1>About Us</h1>
+                <p>
+                    Welcome to <strong>Discover Islands of India</strong>, your ultimate guide to exploring the stunning islands of India!
+                    From the turquoise waters of the Andaman and Nicobar Islands to the serene backwaters of Lakshadweep, India boasts a variety of beautiful islands. 
+                    <span class="dots">...</span>
+                    <span class="more-content">
+                        rich in natural beauty, culture, and adventure. Our team is passionate about showcasing the diversity and beauty of India's islands, offering insights on the best places to visit, stay, and experience. Whether you’re a solo traveler, a couple on a romantic getaway, or a family seeking adventure, our guides are designed to help you plan an unforgettable trip. Join us as we explore the breathtaking islands of India and embark on a journey like no other!
+                    </span>
+                </p>
+                <span class="see-more-btn" onclick="toggleContent()">See More</span>
+
+        
+                <script>
+                    function toggleContent() {
+                        var moreText = document.querySelector(".more-content");
+                        var dots = document.querySelector(".dots");
+                        var btnText = document.querySelector(".see-more-btn");
+            
+                        if (moreText.style.display === "none") {
+                            moreText.style.display = "inline";
+                            dots.style.display = "none";
+                            btnText.innerHTML = "See Less";
+                        } else {
+                            moreText.style.display = "none";
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "See More";
+                        }
+                    }
+                </script>
+                <table>
+                    <thead>
+                        <h1>Contact</h1>
+                    </thead>
+                    <tr>
+                        <td>
+                            E-mail:
+                        </td>
+                        <td>
+                            rudraprataptiwari786@gmail.com
+                        </td>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+        <div class="help">
+            <h1>Help lines:</h1>
+            <table border = "2 "> 
+                <tbody>
+                    <tr>
+                        <td><i class="fa fa-car r1"></i> Police:</td>
+                        <td>100</td>
+                    </tr><tr>
+                        <td><i class="fa fa-fire r1"></i> Fire station:</td>
+                        <td>101</td>
+                    </tr><tr>
+                        <td><i class="fa fa-ambulance r1"></i> Ambulance:</td>
+                        <td>03192 232102</td>
+                    </tr><tr>
+                        <td><i class="fa fa-heart r1"></i> Blood Bank:</td>
+                        <td>03192 230628</td>
+                    </tr><tr>
+                        <td><i class="fa fa-cloud r1"></i> Disaster:</td>
+                        <td>1070/03192 238881100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="weather-container">
+            <h1>Weather Forecast</h1>
+            <div id="weather" class="weather-info">
+                <h2>Loading...</h2>
+            </div>
+        </div>
+        <script>
+            // OpenWeatherMap API details
+            const apiKey = 'c853dba97b5216c8692ad467f81ee57c';
+            const city = 'Port Blair';  // Capital city of Andaman & Nicobar
+            const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+        
+            // Fetch weather data
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const weatherElement = document.getElementById('weather');
+                    weatherElement.innerHTML = `
+                        <h2>Weather in ${data.name}</h2>
+                        <p><strong>Temperature:</strong> ${data.main.temp}°C</p>
+                        <p><strong>Weather:</strong> ${data.weather[0].description}</p>
+                        <p><strong>Humidity:</strong> ${data.main.humidity}%</p>
+                        <p><strong>Wind Speed:</strong> ${data.wind.speed} m/s</p>
+                    `;
+                })
+                .catch(error => {
+                    document.getElementById('weather').innerHTML = '<h2>Error fetching weather data.</h2>';
+                    console.error('Error fetching weather data:', error);
+                });
+        </script>
+</body>
+</html>

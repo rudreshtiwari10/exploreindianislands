@@ -1,0 +1,169 @@
+.main{
+    background: linear-gradient(rgb(228, 127, 33),rgb(208, 38, 202),rgb(41, 203, 209));
+  }
+  .navbar{
+      /* background-color:rgb(51,255,221); */
+      display: flex;
+  }
+  .home,.Contact,.help{
+    margin: 40px;
+  .r1{
+    display: inline;
+  }
+  }
+  .navinfo { 
+    display: flex;
+    width: 50%;
+    margin-right: 50%;
+      a{
+        color: black;
+      }
+      
+      
+  }
+  .logo{
+    margin-left: 0%;
+  }
+  .logo img
+  {
+      height: 80px;
+      width: 130px;
+  }
+  
+  
+  h1 {
+      text-align: center;
+      padding: 20px;
+      color: #333;
+  }
+  
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Individual Card Styles */
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #0047AB;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+    margin: 10px;
+    line-height: 1.4;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0047AB;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+.details {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.details p {
+    margin: 0;
+}
+.division1{
+    background: linear-gradient(to bottom,rgb(55, 54, 54),rgba(0, 0, 0, 1));
+    height: 380px;
+    margin-bottom: 0px;
+    color: #bbb;
+    padding: 10px;
+    display: flex;
+  }
+  .About {
+    width: 40%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hides the extra content initially */
+  .more-content {
+    display: none;
+  }
+  
+  /* Style for the "See More" button */
+  .see-more-btn {
+    color:gray;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .help{
+    h1
+    {
+      font-size: 18pt;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    margin-left:0%;
+  }
+  .help tabel{
+    table-layout: fixed;
+    border: black;
+    border-style: solid;
+  }
+  .weather-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .weather-info {
+    color: black;
+    background-color: #f0f8ff;
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .weather-info h2 {
+    margin-top: 0;
+  }
+  .weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }

@@ -1,0 +1,397 @@
+
+
+.main{
+  /* height: 50vh; Adjust this as needed */
+      background: linear-gradient(to bottom, rgba(106, 90, 205, 0) 70%, rgba(135, 206, 235, 1) 100%),
+      url('awalpaper.jpg') no-repeat center center;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(135, 206, 235, 1)100%,rgba(106, 90, 20)100%); /* Change this to the background color of your choice */
+}
+
+.navbar{
+    /* background-color:rgb(51,255,221); */
+    display: flex;
+}
+.home,.Contact,.help{
+  margin: 40px;
+  
+.r1{
+  display: inline;
+}
+}
+.navinfo { 
+  display: flex;
+  width: 50%;
+  margin-right: 50%;
+    a{
+      color: black;
+    }
+    
+    
+}
+.logo{
+  margin-left: 0%;
+}
+.logo img
+{
+    height: 80px;
+    width: 130px;
+}
+
+.heading{
+  margin-top: 40px;
+  color: transparent;
+}
+.andaman{
+  position: relative;
+}
+.navbar ul li{
+    color: white;
+    margin: 20px ;
+    font-size:large;
+
+}
+
+ .img1{
+  margin-left: 14px;
+ }
+ 
+.imagegallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+.img1,.img2,.img3 {
+        width: 33%;
+                
+        img{
+            border:solid;
+            border-width: 3px;
+            border-radius: 50%;
+            height: 400px;
+            width: 400px;
+            opacity: 1;
+        }
+
+}
+}
+.img1 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.5s;
+}
+.img1:hover img{
+  transform: scale(1.1);
+}
+.img2 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.5s;
+}
+.img2:hover img{
+  transform: scale(1.1);
+}
+.img3 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.5s;
+}
+.img3:hover img{
+  transform: scale(1.1);
+}
+.heading
+{
+  color:white;
+  text-align: center;
+  font-size: 20pt;
+  h1{
+      margin: 0%;
+      font-size: 50pt;
+      font-family: monospace;
+      text-align: center;
+      
+    }
+}
+.info{
+  text-align: center
+  
+ }
+ .about1{
+  h1{
+    font-size: 20pt;
+  }
+ }
+ .geography{
+  h1{
+    font-size: 20pt;
+  }
+ }
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flip-card1 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+  }
+  
+  .flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:20px;
+  }
+  
+  .flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10%;
+  }
+  
+  .flip-card-front1 {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back1 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+  }
+  .flip-card2 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 10px;
+    
+  }
+  
+  .flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:20px;
+  }
+  
+  .flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10%;
+  }
+  
+  .flip-card-front2 {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back2 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+  }
+  .flip-card3 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 10px;
+    
+  }
+  
+  .flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:20px;
+  }
+  
+  .flip-card3:hover .flip-card-inner3 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front3,.flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10%;
+  }
+  
+  .flip-card-front3 {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back3 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+  }
+
+  .flip-card4 {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+  }
+  
+  .flip-card-inner4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius:20px;
+  }
+  
+  .flip-card4:hover .flip-card-inner4 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front4, .flip-card-back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10%;
+  }
+  
+  .flip-card-front4 {
+    background-color: #bbb;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .flip-card-back4 {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 15px;
+  }
+  .ccard1,.ccard2,.ccard3,.ccard4 
+{
+  button{
+margin-top: 45px;
+height: 80px;
+width: 280px;
+border-radius: 10px;
+justify-content: center;
+border-color:grey ;
+box-shadow: black;
+background-color: rgba(22, 190, 128, 0.806);
+}
+}
+.division1{
+  background: linear-gradient(to bottom,rgb(55, 54, 54),rgba(0, 0, 0, 1));
+  height: 380px;
+  color: #bbb;
+  padding: 10px;
+  display: flex;
+}
+.About {
+  width: 40%;
+  font-family: Arial, sans-serif;
+}
+
+/* Hides the extra content initially */
+.more-content {
+  display: none;
+}
+
+/* Style for the "See More" button */
+.see-more-btn {
+  color:gray;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.help{
+  h1
+  {
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  margin-left:0%;
+}
+.help tabel{
+  table-layout: fixed;
+  border: black;
+  border-style: solid;
+}
+.weather-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-left: 100px;
+}
+.weather-info {
+  color: black;
+  background-color: #f0f8ff;
+  border: 1px solid #87CEEB;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.weather-info h2 {
+  margin-top: 0;
+}
+.weather-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+
+
