@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="acstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navinfo">
+                <div class="home">
+                    <i class="fa fa-home"></i>&nbsp;<a href="/home/home.html">Home</a>&nbsp; 
+                </div>
+                <div class="Contact">
+                    <i class="fa fa-photo r1"></i>&nbsp;&nbsp;<a href="/Munroe.html">Main</a>&nbsp;
+                </div>
+                <div class="help">
+                    <i class="fa fa-plane r1"></i>&nbsp;&nbsp;<a href="#">Plan a trip</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="/Images/logo.png"alt="">
+            </div>    
+        </div>
+        <h1>Explore the cuisine of Munroe Island</h1>
+    <div class="mbody">
+            <section class="card-container">
+                <!-- -->
+                <div class="card" onclick="toggleDetails('card1-details')">
+                    <img src="/Images/RestaurentImages/restau1.jpg" alt="Cafe d' Confluence">
+                    <h3>Cafe d' Confluence</h3>
+                    <p>Lake n River added a new series of Conti-fusion food, An experimental kitchen to serve authentic continental food like crabs in alfredo sauce, and pasta cooked in coconut milk. Kayal prawns dipped in white sauce and many more</p>
+                    <div class="details" id="card1-details">
+                        <p>
+                            <b>PRICE RANGE:</b>₹500.00 – ₹950.00<br>
+                            <b>Meals:</b>Lunch, Dinner, Brunch, After-hours<br>
+                            <b>FEATURES:</b>American Express, Mastercard, Visa, Accepts Credit Cards
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card2-details')">
+                    <img src="/Images/RestaurentImages/restau2.jpg" alt="Friends Family Restaurant">
+                    <h3>Friends Family Restaurant</h3>
+                    <p>Located in the vibrant heart of Chittumala, Friends Family Restaurant is a cherished culinary haven where tradition meets innovation. Known for its commitment to quality ingredients, delightful flavors, and exceptional service, Friends Family Restaurant invites you to savor a dining experience like no other.</p>
+                    <div class="details" id="card2-details">
+                        <p>
+                           <b> Address:</b> Road, near Cooperative Bank, Munroe Island, Kerala, India <br>
+                            <b>Opening hours:</b> <Br>
+                            Sunday	12PM-9PM<Br>
+                            Monday	12PM-9PM<Br>
+                            Tuesday	12PM-9PM<Br>
+                            Wednesday   12PM-9PM<Br>
+                            Thursday	12PM-9PM<Br>
+                            Friday	12PM-9PM<Br>
+                            Saturday	12PM-9PM<br>
+                            <b>Average price:</b> INR 400
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card3-details')">
+                    <img src="/Images/RestaurentImages/restau3.jpg" alt="Malabar Cafe">
+                    <h3>Malabar Cafe</h3>
+                    <p>Enjoy authentic flavours of Malabari cuisine crafted by our lady Masterchefs at this relaxed all day restaurant. Drawing on the city’s culinary and cultural legacies, fired with Malabar spices, Malabar Café offers a relaxed and quintessentially South Indian experience. Relax at our modern café that features an all day menu with Kerala region’s age-old treasured recipes crafted by our team of Chefs. Savour aromatic, spicy and exquisitely flavoured interpretations of traditional Kerala dishes just the way it was made at home.</p>
+                    <div class="details" id="card3-details">
+                        <p>
+                            <b>Price Range:</b> ₹950.00 – ₹1,499.00<br>
+                            <b>CUISINES:</b> Indian, Seafood<br>
+                            <b>Special Diets:</b> Vegetarian friendly, Vegan options, Halal, Gluten free options
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card4-details')">
+                    <img src="/Images/RestaurentImages/restau4.jpg" alt="Fort Cochin Seafood Specialty Restaurant">
+                    <h3>Fort Cochin Seafood Specialty Restaurant</h3>
+                    <p>Hailed as one of the most renowned seafood restaurants in India, Fort Cochin is a fine seafood speciality restaurant featuring the fresh catch of the day. Open only in the evenings, the romantic ambience of the candle-lit interiors combined with the expertise of our Chef makes for a magical experience. You haven't tasted the goodness of Cochin if you haven't been here! </p>
+                    <div class="details" id="card4-details">
+                        <p>
+                            <b>Price Range:</b> ₹424.00 – ₹848.00<br>
+                            <b>CUISINES:</b> Indian, Seafood and Asian<br>
+                            <b>Special Diets:</b> Gluten free options
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card5-details')">
+                    <img src="/Images/RestaurentImages/restau5.jpg" alt="Mosaic">
+                    <h3> Mosaic</h3>
+                    <p>Mosaic is an all day dining outlet offering the perfect ambiance for a quick breakfast, business lunch or an intimate evening meal.Our Buffet selection will delight diners with the authentic Kerala, Pan-Asian & International cuisines.An a la carte selection ranges from lighter meals to Grills. Guests can also dine outside near the pool in the Alfresco area of the restaurant.</p>
+                    <div class="details" id="card5-details">
+                        <p>
+                            <b>Price Range:</b>₹1,000.00 – ₹1,499.00<br>
+                            <b>CUISINES:</b> Indian, International and Asian<br>
+                            <b>Special Diets:</b> Vegetarian friendly, Vegan options, Halal, Gluten free options
+                        </p>
+                    </div>
+                </div>
+                <div class="card" onclick="toggleDetails('card6-details')">
+                    <img src="/Images/RestaurentImages/restau6.jpg" alt="Brunton Boatyard Restaurant">
+                    <h3>Brunton Boatyard Restaurant</h3>
+                    <p>We have three truly unique restaurants. Fine dining restaurant 'History' is a tribute to the colonial history of Fort Kochi. Every historic dish has a story to tell. Each recipe has been carefully curated from the families that have called Kochi home for centuries. 'The Terrace Grill' our seafood restaurant serves only the catch of the day, with one of the best views in Kerala. True to its name, the 'Armoury Room' a resto-bar at Brunton Boatyard, has antique flintlocks on the wall and enough ammunition for your conversations</p>
+                    <div class="details" id="card6-details">
+                        <p>
+                            <b>CUISINES:</b> Indian, International and Seafood<br>
+                            <b>Special Diets:</b> Lunch, Dinner, Drinks<Br>
+                            <b>Features:</b>Outdoor Seating, Seating, Parking Available, Highchairs Available, Serves Alcohol, Full Bar, Wine and Beer, Free Wifi, Table Service, Live Music, Waterfront, Jazz Bar
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+        <script>
+    //         document.addEventListener('DOMContentLoaded', () => {
+    //     console.log("Welcome to Explore South Korea!");
+    // });
+    // script.js
+
+    function toggleDetails(detailsId) {
+        const details = document.getElementById(detailsId);
+        if (details.style.display === "block") {
+            details.style.display = "none";
+        } else {
+            details.style.display = "block";
+        }
+    }
+        </script>
+</div>
+    <div class="division1">
+        <div class="About">
+            <div class="aboutus">
+                <h1>About Us</h1>
+                <p>
+                    Welcome to <strong>Discover Islands of India</strong>, your ultimate guide to exploring the stunning islands of India!
+                    From the turquoise waters of the Andaman and Nicobar Islands to the serene backwaters of Lakshadweep, India boasts a variety of beautiful islands. 
+                    <span class="dots">...</span>
+                    <span class="more-content">
+                        rich in natural beauty, culture, and adventure. Our team is passionate about showcasing the diversity and beauty of India's islands, offering insights on the best places to visit, stay, and experience. Whether you’re a solo traveler, a couple on a romantic getaway, or a family seeking adventure, our guides are designed to help you plan an unforgettable trip. Join us as we explore the breathtaking islands of India and embark on a journey like no other!
+                    </span>
+                </p>
+                <span class="see-more-btn" onclick="toggleContent()">See More</span>
+
+        
+                <script>
+                    function toggleContent() {
+                        var moreText = document.querySelector(".more-content");
+                        var dots = document.querySelector(".dots");
+                        var btnText = document.querySelector(".see-more-btn");
+            
+                        if (moreText.style.display === "none") {
+                            moreText.style.display = "inline";
+                            dots.style.display = "none";
+                            btnText.innerHTML = "See Less";
+                        } else {
+                            moreText.style.display = "none";
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "See More";
+                        }
+                    }
+                </script>
+                <table>
+                    <thead>
+                        <h1>Contact</h1>
+                    </thead>
+                    <tr>
+                        <td>
+                            E-mail:
+                        </td>
+                        <td>
+                            rudraprataptiwari786@gmail.com
+                        </td>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+        <div class="help">
+            <h1>Help lines:</h1>
+            <table> 
+                <tbody>
+                    <tr>
+                        <td><i class="fa fa-car r1"></i> Police:</td>
+                        <td>100</td>
+                    </tr><tr>
+                        <td><i class="fa fa-fire r1"></i> Fire station:</td>
+                        <td>101</td>
+                    </tr><tr>
+                        <td><i class="fa fa-ambulance r1"></i> Ambulance:</td>
+                        <td>03192 232102</td>
+                    </tr><tr>
+                        <td><i class="fa fa-heart r1"></i> Blood Bank:</td>
+                        <td>03192 230628</td>
+                    </tr><tr>
+                        <td><i class="fa fa-cloud r1"></i> Disaster:</td>
+                        <td>1070/03192 238881100</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="weather-container">
+            <h1>Weather Forecast</h1>
+            <div id="weather" class="weather-info">
+                <h2>Loading...</h2>
+            </div>
+        </div>
+        <script>
+            // OpenWeatherMap API details
+            const apiKey = 'c853dba97b5216c8692ad467f81ee57c';
+            const city = 'Kerala';  // Capital city of Andaman & Nicobar
+            const apiUrl = //https;api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric;
+        
+            // Fetch weather data
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    const weatherElement = document.getElementById('weather');
+                    weatherElement.innerHTML = `
+                        <h2>Weather in ${data.name}</h2>
+                        <p><strong>Temperature:</strong> ${data.main.temp}°C</p>
+                        <p><strong>Weather:</strong> ${data.weather[0].description}</p>
+                        <p><strong>Humidity:</strong> ${data.main.humidity}%</p>
+                        <p><strong>Wind Speed:</strong> ${data.wind.speed} m/s</p>
+                    `;
+                })
+                .catch(error => {
+                    document.getElementById('weather').innerHTML = '<h2>Error fetching weather data.</h2>';
+                    console.error('Error fetching weather data:', error);
+                });
+        </script>
+</body>
+</html>

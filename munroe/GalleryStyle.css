@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.main{
+  background: linear-gradient(rgb(228, 127, 33),rgb(208, 38, 202),rgb(41, 203, 209));
+}
+.navbar{
+    /* background-color:rgb(51,255,221); */
+    display: flex;
+}
+.home,.Contact,.help{
+  margin: 40px;
+.r1{
+  display: inline;
+}
+}
+.navinfo { 
+  display: flex;
+  width: 50%;
+  margin-right: 50%;
+    a{
+      color: black;
+    }
+    
+    
+}
+.logo{
+  margin-left: 0%;
+}
+.logo img
+{
+    height: 80px;
+    width: 130px;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.gallery-item {
+    flex: 1 1 300px;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    justify-content: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.5);
+}
+
+/* Lightbox Styles */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.lightbox:target {
+    display: flex;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.division1{
+    background: linear-gradient(to bottom,rgb(55, 54, 54),rgba(0, 0, 0, 1));
+    height: 380px;
+    color: #bbb;
+    padding: 10px;
+    display: flex;
+  }
+  .About {
+    width: 40%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hides the extra content initially */
+  .more-content {
+    display: none;
+  }
+  
+  /* Style for the "See More" button */
+  .see-more-btn {
+    color:gray;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .help{
+    h1
+    {
+      font-size: 18pt;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    margin-left:0%;
+  }
+  .help tabel{
+    table-layout: fixed;
+    border: black;
+    border-style: solid;
+  }
+  .weather-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .weather-info {
+    color: black;
+    background-color: #f0f8ff;
+    border: 1px solid #87CEEB;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .weather-info h2 {
+    margin-top: 0;
+  }
+  .weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
